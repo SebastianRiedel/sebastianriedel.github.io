@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bayesian Orientation Estimation and Local Surface Informativeness for Active Object Pose Estimation | Sebastian Riedel | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/sebastianriedel.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sebastian Riedel | Professional Portfolio">
+    <meta property="og:url" content="https://sebastianriedel.github.io/projects/project_201504_bingham.html">
+    <meta property="og:title" content="Bayesian Orientation Estimation and Local Surface Informativeness for Active Object Pose Estimation | Sebastian Riedel | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/sebastianriedel.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Bayesian Orientation Estimation and Local Surface Informativeness for Active Object Pose Estimation | Sebastian Riedel | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Sebastian Riedel</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Bayesian Orientation Estimation and Local Surface Informativeness for Active Object Pose Estimation</h1>
+ <div class="text-center p-4">
+  <img width="200px" class="img-thumbnail" src="../img/bingham/overview.jpg" />
+  <img width="200px" class="img-thumbnail" src="../img/bingham/fusion.jpg" />
+  <img width="200px" class="img-thumbnail" src="../img/bingham/confusion.jpg" />
+  <img width="200px" class="img-thumbnail" src="../img/bingham/score.jpg" />
+</div>
+
+<h3 id="abstract">Abstract</h3>
+
+<p>My Master-thesis considers the problem of active multi-view pose estimation of known objects from 3d range data and therein two main aspects: 1) the fusion of orientation measurements in order to sequentially estimate an objects rotation from multiple views and 2) the determination of informative object parts and viewing directions in order to facilitate planning of view sequences which lead to accurate and fast converging orientation estimates.</p>
+
+<p>Addressing the first aspect, the Bingham probability distribution over 3d rotations, a parametric probability density function defined on the unit quaternion sphere, is investigated in a black box fusion task based on real data. The experiment shows that the resulting rotation errors are equal to fusion approaches based on pose clustering, a particle filter and a histogram filter while having the advantage of a continuous and parametric probabilistic representation.</p>
+
+<p>To evaluate the informativeness of surface parts and viewing directions of an object with respect to orientation estimation, we present a conceptually simple approach based on the classification of locally computed 3d shape features to viewing directions they could be observed from during a training phase. At first, the applicability of the viewing direction classification to object orientation estimation is investigated. Secondly, the trained classification pipeline is used to determine informative viewing directions and discriminative local surface parts by analyzing the discrepancy between predicted and correct classifications on training data using the Kullback-Leibler divergence as information-theoretic measure of dissimilarity.</p>
+
+<p>Experiments on simulated and real data revealed that the accuracy of the orientation estimation using the proposed method is not yet comparable to state-of-the-art algorithms in the general case of unrestricted viewing directions. The problem was identified as non-robustness of the classification to deviations from the discrete set of training view directions. The evaluation of view and surface part informativeness, however, gives plausible and promising results for building effective view planning criteria.</p>
+
+<h3 id="further-material">Further Material</h3>
+<ul>
+  <li>[1] Riedel, Sebastian. Master-thesis: <a href="https://drive.google.com/open?id=1Jmj9WT3hGdlxXyPxH9vpFlyxfkus3mEV">“Bayesian Orientation Estimation and Local Surface Informativeness for Active Object Pose Estimation”</a></li>
+  <li>[2] Riedel, Sebastian, Zoltan-Csaba Marton, and Simon Kriegel. <a href="https://ieeexplore.ieee.org/abstract/document/7501381">“Multi-view orientation estimation using Bingham mixture models.”</a> In 2016 IEEE international conference on automation, quality and testing, robotics (AQTR), pp. 1-6. IEEE, 2016.</li>
+  <li>[3] Riedel, Sebastian, Zoltan-Csaba Marton, and Simon Kriegel. <a href="https://pdfs.semanticscholar.org/8046/a157adef94c4ad3c85935a6defd20c88a432.pdf">“Viewing Direction Classification: Application to View Planning.”</a></li>
+  <li>[4] Márton, Zoltán Csaba, Serkan Türker, Christian Rink, Manuel Brucker, Simon Kriegel, Tim Bodenmüller, and Sebastian Riedel. <a href="https://link.springer.com/article/10.1007/s10514-017-9633-1">“Improving object orientation estimates by considering multiple viewpoints.”</a> Autonomous Robots 42, no. 2 (2018): 423-442.</li>
+</ul>
+
+<hr />
+
+<p><strong>Technology Stack:</strong> C++, Python, Cython, PCL, Scikit-Learn, libbingham</p>
+
+<p><strong>Work Affiliation:</strong> German Aerospace Center (DLR), Technical University Munich (TUM), under supervision of Zoltan-Csaba Marton, Simon Kriegel and Prof. Darius Burschka</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
