@@ -6,10 +6,10 @@
     "email": "sebastian.riedel@ultimanet.de",
     "phone": "",
     "website": "https://sebastianriedel.github.io",
-    "summary": "Computer scientist by training. +8 years student- and professional-level experience as research and software engineer in robotics, machine perception and machine learning.",
+    "summary": "Computer scientist by training. +11 years student- and professional-level experience as research and software engineer in robotics, machine perception and machine learning.",
     "location": {
       "address": "",
-      "postalCode": "80809",
+      "postalCode": "80337",
       "city": "Munich",
       "countryCode": "GER",
       "region": "Germany"
@@ -131,8 +131,9 @@
       "website": "https://www.agile-robots.com/",
       "startDate": "2019-07",
       "endDate": "Present",
-      "summary": "Robotic Full Stack Developer:",
+      "summary": "Robotic Full Stack Developer, Project & Technical Lead:",
       "highlights": [
+        "project, project-team & technical lead for various internal projects",
         "software integration and contribution to various levels of our software stack",
         "kino-dynamic model generation pipeline (Symoro)",
         "IKfast solver generation pipeline",
@@ -141,7 +142,7 @@
         "integration of various OSS projects (fcl, realtime_urdf_filter, Trac-IK)",
         "code generation for exposing system capabilities (e.g. middleware interfaces) to high-level programming tools"
       ]
-    },    
+    },
     {
       "company": "German Aerospace Center (DLR), Institute for Robotics and Mechatronics",
       "position": "Research Engineer (Robotics)",
@@ -208,7 +209,7 @@
       "date": "2012",
       "awarder": "Technical University Munich",
       "summary": "Travel grant I was awarded to support my exchange year at Johns Hopkins University, Baltimore, MD, USA."
-    } 
+    }
   ],
   "references": [
     {
