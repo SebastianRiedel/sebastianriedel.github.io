@@ -1,118 +1,219 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Sebastian Riedel",
+    "label": "Research and Software Engineer",
+    "picture": "https://sebastianriedel.github.io/images/photo.png",
+    "email": "sebastian.riedel@ultimanet.de",
+    "phone": "",
+    "website": "https://sebastianriedel.github.io",
+    "summary": "Computer scientist by training. +8 years student- and professional-level experience as research and software engineer in robotics, machine perception and machine learning.",
+    "location": {
+      "address": "",
+      "postalCode": "80809",
+      "city": "Munich",
+      "countryCode": "GER",
+      "region": "Germany"
+    },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      {
+        "network": "github",
+        "username": "SebastianRiedel",
+        "url": "http://github.com/SebastianRiedel"
+      },
+      {
+        "network": "linkedin",
+        "username": "riedelsebastian",
+        "url": "https://www.linkedin.com/in/riedelsebastian/"
+      }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    {
+      "name": "Robotics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Cognition",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Science",
+      "keywords": [
+      ]
+    }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "level": "",
+      "keywords": [
+        "Python",
+        "C++",
+        "C",
+        "Bash",
+        "Matlab/Simulink",
+        "ROS",
+        "DDS",
+        "Trac-IK",
+        "FCL",
+        "PCL",
+        "OpenCV",
+        "VTK",
+        "Tensorflow",
+        "PyTorch",
+        "Scikit-Learn",
+        "Pandas/Dask",
+        "Bokeh",
+        "Sympy",
+        "Eigen",
+        "Cython/PyBind11",
+        "CMake"
+      ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "level": "",
+      "keywords": [
+        "Linux",
+        "Git/GitHub",
+        "SLURM"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "Technical University Munich, Munich, GER",
+      "area": "Informatics",
+      "studyType": "M.Sc.",
+      "startDate": "2011-10",
+      "endDate": "2014-11",
+      "gpa": "1.1",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Johns Hopkins University, Baltimore, USA",
+      "area": "Computer Science",
+      "studyType": "Study and Research Year",
+      "startDate": "2012-08",
+      "endDate": "2013-08",
+      "gpa": "-",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Technical University Munich, Munich, GER",
+      "area": "Informatics",
+      "studyType": "B.Sc.",
+      "startDate": "2008-10",
+      "endDate": "2011-09",
+      "gpa": "1.5",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Agile Robots AG",
+      "position": "Senior Software Engineer, Robotics",
+      "website": "https://www.agile-robots.com/",
+      "startDate": "2019-07",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Robotic Full Stack Developer:",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "software integration and contribution to various levels of our software stack",
+        "kino-dynamic model generation pipeline (Symoro)",
+        "IKfast solver generation pipeline",
+        "pose based visual servoing (PBVS) module (OpenCV) with cart. velocity controller (libfranka)",
+        "transforms library (similar to ROS tf)",
+        "integration of various OSS projects (fcl, realtime_urdf_filter, Trac-IK)",
+        "code generation for exposing system capabilities (e.g. middleware interfaces) to high-level programming tools"
+      ]
+    },    
+    {
+      "company": "German Aerospace Center (DLR), Institute for Robotics and Mechatronics",
+      "position": "Research Engineer (Robotics)",
+      "website": "https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-8017",
+      "startDate": "2015-05",
+      "endDate": "2019-06",
+      "summary": "Research and software engineering work on various topics, projects and platforms:",
+      "highlights": [
+        "software modules for mobile manipulators (robotic platforms: AIMM, LRU)",
+        "data collection for machine learning (robotic platforms: AIMM, C-Runner, David)",
+        "contributions to six conference and journal papers",
+        "robotic system integration (ROS, internal middlerware)",
+        "sensor data management & visualization (PyData ecosystem)",
+        "machine learning for robot dynamics (shallow, deep, incremental; Scikit, Tensorflow, PyTorch)",
+        "task-level environment modeling (Neo4J, OGM)",
+        "task execution-flow modeling, logging & analysis (Rafcon)",
+        "GPU Cluster configuration and maintenance (SLURM)"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "RoboCup Logistics League-Team 2011, 2012, 2014, Technical University Munich",
+      "position": "RoboCup Software/Systems Developer",
+      "website": "https://www.bbunits.de/",
+      "startDate": "2011-01",
+      "endDate": "2014-07",
+      "summary": "Co-founder and core developer within a small student team (3-7 people) participating at RoboCup Logistics League:",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "overall system and control architecture (with core team members)",
+        "LSPB trajectory generation using quadratic splines",
+        "PD trajectory control and shared-memory actuator communication",
+        "context-dependend camera configuration over Video4Linux-interface"
       ]
     },
     {
-      "organization": "",
+      "company": "various institutes",
+      "position": "Student Research Assistant",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "startDate": "2010",
+      "endDate": "2014",
+      "summary": "Total of 23 months at TUM, JHU (USA) and DLR on various topics:",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "2014, DLR, Master-Thesis Research: point-cloud perception, feature-based object pose estimation, recursive probabilistic orientation estimation, next-best-view planning",
+        "2013, CIRL, JHU (USA): point-cloud-based sequential scene parsing with physical constraints (ROS, C++, PCL, Bullet Physics), integration of perception into a human-robot collaborative system (Python, VTK)",
+        "2011, DLR, Bachelor-Thesis: numerics of Kalman filtering (UD-factorization), automated noise covariance optimization",
+        "2010, TUM: hardware/software co-design for an Altera FPGA by means of an automated code generation approach using Matlab's Simulink"
       ]
-    }
+    },
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "1st Place",
+      "date": "2011, 2012",
+      "awarder": "RoboCup Logistics League",
+      "summary": "(2014, 2nd place)."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
+      "title": "Deutschlandstipendium",
+      "date": "2012",
+      "awarder": "Technical University Munich and Giesecke & Devrient",
+      "summary": "Year-long, monthly stipend awarded based on academic performance criteria."
+    },
+    {
+      "title": "TUM PROMOS Stipend",
+      "date": "2012",
+      "awarder": "Technical University Munich",
+      "summary": "Travel grant I was awarded to support my exchange year at Johns Hopkins University, Baltimore, MD, USA."
+    } 
   ],
   "references": [
     {
-      "name": "Available upon request"
+      "name": "Available upon request",
+      "reference": ""
     }
   ]
 }
